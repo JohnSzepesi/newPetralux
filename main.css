@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.szolg-content, .about-content, .partnereink-bg, .boxes{
+    background-color:snow;
+}
+
+nav ul li:hover {
+    background-color: #0091ea;
+    border-radius: 5%;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+button.btn.blue-grey.darken-3:hover{
+  background-color: #0091ea !important;
+  color: white
+}
+
+header #mobile-demo {
+    height: 100%;
+    background-color: #37474f;
+}
+
+header #mobile-demo li a {
+    background-color: #37474f;
+    color: white;
+}
+
+.sidenav-overlay {
+    opacity: 0 !important;
+}
+
+blockquote {
+    margin: 0;
+    border-left: 5px solid #37474f;
+    text-align: justify;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.praktikus-content, .esztetikus-content, .card-content-justify{
+    text-align: justify
+}
+
+#partnereink a{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .products,
+    .contact-content {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .contact-content h4,
+    h6.text-center {
+        font-size: 1.2rem;
+    }
+
+    li.collection-item.text-center,
+    input,
+    textarea.materialize-textarea.form-control {
+        font-size: 0.8rem !important;
+    }
+
+    footer a{
+      font-size: .7rem;
+      
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+footer h6 {
+        font-size: .7rem;
+    }
+    .documents{
+      font-size: .7rem
+    }
+
+    .footer-copyright{
+      font-size: .7rem
+    }
